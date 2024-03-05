@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Florent's porte-folio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./vendors/aos.js"></script>
+    <link rel="stylesheet" href="./vendors/aos.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <main class="px-6 md:px-12 lg:px-18">
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                              Section Home                               -->
+        <!-- ----------------------------------------------------------------------- -->
+        <section id="home" class="container mx-auto min-h-screen flex flex-col lg:flex-row justify-around">
+            <div class="my-auto">
+                <h1>
+                    <p class="text-3xl mb-4 md:mb-8 md:text-4xl lg:text-5xl rajdhani-semibold text-myblue tracking-wide uppercase">Florent Boutonnet</p>
+                    <p class="text-4xl md:text-5xl lg:text-6xl">Développeur Web</p>
+                </h1>
+                <div class="flex my-6">
+                    <a href="https://github.com/flo-bou" target="_blank" rel="noopener noreferrer">
+                        <img width="20" class="mr-4 opacity-50 hover:opacity-90" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="Logo de GitHub" title="Page GitHub de Florent" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/florent-boutonnet/" target="_blank" rel="noopener noreferrer">
+                        <img width="20" class="mr-4 opacity-50 hover:opacity-90" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="Logo de LinkedIn" title="Profil LinkedIn de Florent" />
+                    </a>
+                    <a href="mailto:florent.b@gmx.com" target="_blank" rel="noopener noreferrer">
+                        <img width="22" class="mr-4 opacity-50 hover:opacity-90" src="./img/logo/envelope-at-fill.svg" alt="Icone de courriel" title="Envoyer un courriel à Florent" />
+                    </a>
+                    <a href="./CV-Florent_BOUTONNET-Developpeur_Web.pdf" target="_blank" rel="noopener noreferrer">
+                        <img width="22" class="mr-4 opacity-50 hover:opacity-90" src="./img/logo/resume.png" alt="Icone de curriculum vitæ" title="Voir le curriculum vitæ de Florent" />
+                    </a>
+                </div>
+            </div>
+            <img class="w-15 rounded-full mx-auto my-auto" src="./img/portrait-bluebg.JPG" alt="Portrait de Florent" title="Portrait de Florent" />
+        </section>
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                             Section Projet                              -->
+        <!-- ----------------------------------------------------------------------- -->
+        <section id="projects" class="container mx-auto my-16">
+            <div>
+                <h2 class="text-4xl my-4 inline-block rajdhani-semibold text-myblue tracking-wide uppercase" data-aos="fade-left">Projets</h2>
+                <div class="title-underline h-1 bg-myblue" data-aos="fade-right"></div>
+            </div>
+
+
+            <article class="my-24">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:basis-1/3">
+                        <div class="rounded shadow-lg overflow-hidden">
+                            <img class="w-full object-cover" loading="lazy" src="./img/page-devis.png" alt="" title="" />
+                        </div>
+                    </div>
+                    <div class="md:basis-2/3 md:ml-6 flex flex-col justify-between">
+                        <h3 class="text-3xl my-3">ERP de l'entreprise Immofacile</h3>
+                        <div class="my-3">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore id eveniet, dicta nulla vel facere totam in laudantium, rem, optio porro excepturi. Eaque eos omnis maiores ipsa. Suscipit, illo!
+                        </div>
+                        <p class="flex flex-row flex-start my-3">
+                            <img width="40" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg" alt="PHP logo" title="PHP logo" />
+                            <img width="34" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg" alt="Docker logo" title="Docker logo" />
+                            <img width="28" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gitlab.svg" alt="GitLab logo" title="GitLab logo" />
+                            <img width="34" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/bootstrap.svg" alt="Bootstrap logo" title="Bootstrap logo" />
+                            <img width="28" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" alt="JavaScript logo" title="JavaScript logo" />
+                            <img width="28" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jquery.svg" alt="jQuery logo" title="jQuery logo" />
+                        </p>
+                        <p class="flex flex-row justify-center my-3"> 
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="my-24">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:basis-1/3">
+                        <div class="rounded shadow-lg overflow-hidden">
+                            <img class="w-full object-cover" loading="lazy" src="./img/portfolio-old.png" alt="Capture d'écran du porte-folio" title="Capture d'écran du porte-folio" />
+                        </div>
+                    </div>
+                    <div class="md:basis-2/3 md:ml-6 flex flex-col justify-between">
+                        <h3 class="text-3xl my-3">Annotation de musique</h3>
+                        <div class="my-3">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore id eveniet, dicta nulla vel facere totam in laudantium, rem, optio porro excepturi. Eaque eos omnis maiores ipsa. Suscipit, illo!
+                        </div>
+                        <p class="flex flex-row flex-start my-3">
+                            <img width="28" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/python.svg" alt="Python logo" title="Python logo" />
+                            <img width="32" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/flask.svg" alt="Flask logo" title="Flask logo" />
+                            <img width="32" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/qt.svg" alt="Qt logo" title="Qt logo" />
+                            <img width="28" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" alt="JavaScript logo" title="JavaScript logo" />
+                            <img width="34" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/tailwindcss.svg" alt="Tailwind logo" title="Tailwind logo" />
+                        </p>
+                        <p class="flex flex-row justify-center my-3">
+                            <a href="https://github.com/flo-bou/marovany_detection" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                Voir le code
+                            </a>
+                            <!-- <a href="https://flo-bou.github.io/" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                Voir le projet
+                            </a>  -->
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="my-24">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:basis-1/3">
+                        <div class="rounded shadow-lg overflow-hidden">
+                            <img class="w-full object-cover" loading="lazy" src="./img/OSmOSE-pic.png" alt="" title="" />
+                        </div>
+                    </div>
+                    <div class="md:basis-2/3 md:ml-6 flex flex-col justify-between">
+                        <h3 class="text-3xl my-3">Site vitrine du GIS OSmOSE</h3>
+                        <div class="my-3">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore id eveniet, dicta nulla vel facere totam in laudantium, rem, optio porro excepturi. Eaque eos omnis maiores ipsa. Suscipit, illo!
+                        </div>
+                        <p class="flex flex-row flex-start my-3">
+                            <img width="32" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg" alt="React.js logo" title="React.js logo" />
+                            <img width="34" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/bootstrap.svg" alt="Bootstrap logo" title="Bootstrap logo" />
+                            <img width="28" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/python.svg" alt="Python logo" title="Python logo" />
+                            <img width="34" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/docker.svg" alt="Docker logo" title="Docker logo" />
+                        </p>
+                        <p class="flex flex-row justify-center my-3">
+                            <a href="https://github.com/Project-OSmOSE/osmose-app" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                Voir le code
+                            </a>
+                            <a href="https://osmose.ifremer.fr/" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                Voir le projet
+                            </a> 
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <div id="more-projects" class="overflow-hidden ">
+
+                <article class="mb-24">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:basis-1/3">
+                            <div class="rounded shadow-lg overflow-hidden">
+                                <img class="w-full object-cover" loading="lazy" src="./img/My_Kanban_board.png" alt="" title="" />
+                            </div>
+                        </div>
+                        <div class="md:basis-2/3 md:ml-6 flex flex-col justify-between">
+                            <h3 class="text-3xl my-3">Tableau Kanban</h3>
+                            <div class="my-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore id eveniet, dicta nulla vel facere totam in laudantium, rem, optio porro excepturi. Eaque eos omnis maiores ipsa. Suscipit, illo!
+                            </div>
+                            <p class="flex flex-row flex-start my-3">
+                                <img width="32" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg" alt="React.js logo" title="React.js logo" />
+                                <img width="34" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/bootstrap.svg" alt="Bootstrap logo" title="Bootstrap logo" />
+                                <img height="32" width="32" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/createreactapp.svg" alt="Create-React-App logo" title="Create-React-App logo" />
+                            </p>
+                            <p class="flex flex-row justify-center my-3">
+                                <a href="https://github.com/flo-bou/my-kanban" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le code
+                                </a>
+                                <a href="https://flo-bou.github.io/my-kanban/" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le projet
+                                </a> 
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="my-24">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:basis-1/3">
+                            <div class="rounded shadow-lg overflow-hidden">
+                                <img class="w-full object-cover" loading="lazy" src="./img/pokefilter.png" alt="Capture d'écran du porte-folio" title="Capture d'écran du porte-folio" />
+                            </div>
+                        </div>
+                        <div class="md:basis-2/3 md:ml-6 flex flex-col justify-between">
+                            <h3 class="text-3xl my-3">Pokedex filter</h3>
+                            <div class="my-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore id eveniet, dicta nulla vel facere totam in laudantium, rem, optio porro excepturi. Eaque eos omnis maiores ipsa. Suscipit, illo!
+                            </div>
+                            <p class="flex flex-row flex-start my-3">
+                                <img width="32" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg" alt="React.js logo" title="React.js logo" />
+                                <img width="34" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/tailwindcss.svg" alt="Tailwind logo" title="Tailwind logo" />
+                                <img height="32" width="32" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/createreactapp.svg" alt="Create-React-App logo" title="Create-React-App logo" />
+                            </p>
+                            <p class="flex flex-row justify-center my-3">
+                                <a href="https://github.com/flo-bou/pokedex-filter" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le code
+                                </a>
+                                <a href="https://flo-bou.github.io/pokedex-filter/" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le projet
+                                </a> 
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="my-24">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:basis-1/3">
+                            <div class="rounded shadow-lg overflow-hidden">
+                                <img class="w-full object-cover" loading="lazy" src="./img/pokefilter.png" alt="" title="" />
+                            </div>
+                        </div>
+                        <div class="md:basis-2/3 md:ml-6 flex flex-col justify-between">
+                            <h3 class="text-3xl my-3">Library manager</h3>
+                            <div class="my-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore id eveniet, dicta nulla vel facere totam in laudantium, rem, optio porro excepturi. Eaque eos omnis maiores ipsa. Suscipit, illo!
+                            </div>
+                            <p class="flex flex-row flex-start my-3">
+                                <img width="30" class="mr-2 opacity-60" src="./img/logo/java.svg" alt="Java logo" title="Java logo" />
+                            </p>
+                            <p class="flex flex-row justify-center my-3">
+                                <a href="https://github.com/flo-bou/library-manager" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le code
+                                </a>
+                                <!-- <a href="https://flo-bou.github.io/pokedex-filter/" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le projet
+                                </a>  -->
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="my-24">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:basis-1/3">
+                            <div class="rounded shadow-lg overflow-hidden">
+                                <img class="w-full object-cover" loading="lazy" src="./img/portfolio-old.png" alt="Capture d'écran du porte-folio" title="Capture d'écran du porte-folio" />
+                            </div>
+                        </div>
+                        <div class="md:basis-2/3 md:ml-6 flex flex-col justify-between">
+                            <h3 class="text-3xl my-3">Portefolio personnel</h3>
+                            <div class="my-3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus dolore id eveniet, dicta nulla vel facere totam in laudantium, rem, optio porro excepturi. Eaque eos omnis maiores ipsa. Suscipit, illo!
+                            </div>
+                            <p class="flex flex-row flex-start my-3">
+                                <img width="34" class="mr-2 opacity-60" src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/11.6.0/bootstrap.svg" alt="Bootstrap logo" title="Bootstrap logo" />
+                                <img width="28" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" alt="JavaScript logo" title="JavaScript logo" />
+                                <img width="32" class="mr-2 opacity-60" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ovh.svg" alt="ovh logo" title="ovh logo" />
+                            </p>
+                            <p class="flex flex-row justify-center my-3">
+                                <a href="https://github.com/flo-bou/portfolio_sow" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le code
+                                </a>
+                                <a href="https://flo-bou.github.io/portfolio_sow/" target="_blank" class="mx-5 px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                                    Voir le projet
+                                </a> 
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <p id="toggle-button" class="text-center">
+                <button class="mx-auto px-8 py-3 text-xl text-white bg-gray-600 border rounded hover:bg-gray-500 hover:cursor-pointer focus:ring-2 focus:ring-gray-400" onclick="toggleMoreProjects();">
+                    Voir plus de projets
+                </button>
+            </p>
+        </section>
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                           Section Technologies                          -->
+        <!-- ----------------------------------------------------------------------- -->
+        <section id="skills" class="container mx-auto my-16">
+            <h2 class="text-4xl my-4 inline-block rajdhani-semibold text-myblue tracking-wide uppercase" data-aos="fade-left">Technologies</h2>
+            <div class="h-1 bg-myblue" data-aos="fade-right"></div>
+
+            <div class="grid gap-y-16 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 my-24">
+                <div class="flex flex-col">
+                    <img width="110" src="./img/logo/html5.png" alt="HTML5 logo" title="HTML5 logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">HTML</p>
+                    <p class="text-center">3 ans</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="80" src="./img/logo/css3-logo.png" alt="CSS3 logo" title="CSS3 logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">CSS</p>
+                    <p class=" text-center">3 ans</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="120" src="./img/logo/JavaScript_logo.png" alt="JavaScript logo" title="JavaScript logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">JavaScript</p>
+                    <p class="text-center">3 ans</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="150" height="150" src="./img/logo/bootstrap-logo.png" alt="Bootstrap logo" title="Bootstrap logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">Bootstrap</p>
+                    <p class="text-center">2 ans</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="150" height="150" src="./img/logo/Docker-Symbol.png" alt="Docker logo" title="Docker logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">Docker</p>
+                    <p class=" text-center">2 ans</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="150" src="./img/logo/php-logo.png" alt="PHP logo" title="PHP logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">PHP</p>
+                    <p class="text-center">1 an</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="120" src="./img/logo/mysql.png" alt="MySQL logo" title="MySQL logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">MySQL</p>
+                    <p class="text-center">1 an</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="150" height="150" src="./img/logo/GitLab-2022.png" alt="GitLab logo" title="GitLab logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">GitLab</p>
+                    <p class=" text-center">1 an</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="150" height="150" src="./img/logo/java-logo.png" alt="Java logo" title="Java logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">Java</p>
+                    <p class=" text-center">6 mois</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="120" height="150" src="./img/logo/logo-react.png" alt="React logo" title="React logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">React</p>
+                    <p class=" text-center">6 mois</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="100" height="150" src="./img/logo/python-logo-clipart.png" alt="Python logo" title="Python logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">Python</p>
+                    <p class=" text-center">6 mois</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img width="150" height="150" src="./img/logo/tailwind-css-logo-89E99D7181-seeklogo.com.png" alt="Tailwind CSS logo" title="Tailwind CSS logo" class="mx-auto my-auto">
+                    <p class="font-semibold text-center">Tailwind</p>
+                    <p class=" text-center">3 mois</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                             Section Contact                             -->
+        <!-- ----------------------------------------------------------------------- -->
+        <section id="contact" class="container mx-auto my-16">
+            <h2 class="text-4xl my-4 inline-block rajdhani-semibold text-myblue tracking-wide uppercase" data-aos="fade-left">Contact</h2>
+            <div class="h-1 bg-myblue" data-aos="fade-right"></div>
+
+            <div class="flex flex-wrap flex-row justify-stretch my-24">
+                <div class="w-full md:w-1/2 my-6 flex flex-col justify-center">
+                    Vous pouvez me contacter :
+                    <ul class="list-disc list-inside">
+                        <li>
+                            <img width="20" class="mr-2 opacity-80 inline-block" src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="Logo de LinkedIn" title="Profil LinkedIn de Florent" />
+                            par LinkedIn via la page 
+                            <a href="https://www.linkedin.com/in/florent-boutonnet/" target="_blank" rel="noopener noreferrer" class="text-myblue hover:underline active:blue-400"><address>linkedin.com/in/florent-boutonnet/ </address></a>
+                        </li>
+                        <li>
+                            <img width="22" class="mr-2 opacity-80 inline-block" src="./img/logo/envelope-at-fill.svg" alt="Icone de courriel" title="Envoyer un courriel à Florent" />
+                            par courriel à l'adresse <address>florent.b@gmx.com</address> 
+                        </li>
+                        <li>ou par le formulaire suivant :</li>
+                    </ul>
+                </div>
+                <form class="w-full md:w-1/2">
+                    <div class="my-6">
+                        <label for="courriel" class="block mb-2 font-semibold text-gray-900">Courriel</label>
+                        <input type="email" name="courriel" id="courriel" class="block w-full p-3 bg-gray-50 text-gray-900 rounded border focus:outline-2 focus:outline-blue-500" placeholder="jean@site.com" required="">
+                    </div>
+                    <div class="my-6">
+                        <label for="message" class="block mb-2 font-semibold text-gray-900">Message</label>
+                        <textarea name="message" id="message" rows="6" minlength="16" class="block w-full p-3 bg-gray-50 text-gray-900 rounded border focus:outline-2 focus:outline-blue-500" placeholder="Bonjour Florent,"></textarea>
+                    </div>
+                    <div class="my-6 text-right">
+                        <button type="" class="px-5 py-3 font-medium text-white bg-myblue border rounded hover:bg-blue-500 focus:ring-2 focus:ring-blue-400">
+                            Envoyer
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+        <!-- ------------------------------- Footer -------------------------------- -->
+        <footer>
+            <div class="container text-center text-sm mx-auto my-6">
+                <hr>
+                <p class="my-6">
+                    Copyright &copy; 2024 Florent Boutonnet
+                    <!-- <a class="text-light" href="./humans.txt">Full credits</a> -->
+                </p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
