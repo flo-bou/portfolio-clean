@@ -28,7 +28,8 @@ body {
     color: var(--myblue);
 }
 
-.bg-myblue {
+.bg-myblue,
+button[type=submit] {
     background-color: var(--myblue);
 }
 
